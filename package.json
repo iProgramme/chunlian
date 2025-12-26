@@ -1,0 +1,31 @@
+
+{
+  "name": "spring-couplet-wizard",
+  "version": "1.0.0",
+  "description": "Chinese New Year Couplet Generator Workflow",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "vite",
+    "build": "vite build",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@google/genai": "^0.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "concurrently": "^8.2.0",
+    "typescript": "^5.2.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/node": "^20.0.0"
+  }
+}
